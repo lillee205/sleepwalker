@@ -1,0 +1,52 @@
+body{
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden; 
+    margin: 0
+}
+
+h1{
+    margin-top: 5vh;
+    margin-bottom:5vh;
+}
+
+#main{
+    height: 100%;
+    margin-top:5vh;
+    margin-left:5vw;
+}
+
+#sleepbox{
+    margin: 5vh 0;
+    font-size: 1.5em;
+}
+
+#changeObject{
+    position: absolute;
+    right: 10vw;
+    top: 40vh;
+    height: 13%;
+    width: 23%;
+    opacity: 0;
+}
+
+#changeObject:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+
+table, th, td {
+    text-align: center;
+    padding:0.5em;
+    border: 1px solid black;
+  }
+
+#wrapper{
+    overflow-y: scroll; 
+    width:22vw; 
+    height:46vh;
+    display: block;
+    position: absolute;
+    z-index: 5;
+    bottom: 4vh;
+}
